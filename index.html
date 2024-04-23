@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>tree</title>
+    <style>
+        .absolute1{/* (절대배치) static이 아닌 가까운 조상이 기준 (없으면 젤 위에) */
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        .absolute2{/* (절대배치) static이 아닌 가까운 조상이 기준 (없으면 젤 위에) */
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            top: 0px;
+            left: 145px;
+        }
+        .absolute3{/* (절대배치) static이 아닌 가까운 조상이 기준 (없으면 젤 위에) */
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            top: 130px;
+            left: 180px;
+        }
+        .absolute4{/* (절대배치) static이 아닌 가까운 조상이 기준 (없으면 젤 위에) */
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            top: 230px;
+            left: 120px;
+        }
+        .absolute5{/* (절대배치) static이 아닌 가까운 조상이 기준 (없으면 젤 위에) */
+            position: absolute;
+            height: 100px;
+            width: 80px;
+            top: 380px;
+            left: 100px;
+        }
+        .absolute6{/* (절대배치) static이 아닌 가까운 조상이 기준 (없으면 젤 위에) */
+            position: absolute;
+            height: 100px;
+            width: 80px;
+            top: 350px;
+            left: 210px;
+        }
+        .absolute7{/* (절대배치) static이 아닌 가까운 조상이 기준 (없으면 젤 위에) */
+            position: absolute;
+            height: 100px;
+            width: 80px;
+            top: 250px;
+            left: 210px;
+        }
+        .up{
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="up">TREE
+        <img src="tree.png" class="absolute1">
+        <img src="star.png" class="absolute2">
+        <img src="ring.png" class="absolute3">
+        <img src="ginger.png" class="absolute4">
+        <img src="ball.png" class="absolute5">
+        <img src="ball2.png" class="absolute6">
+        <img src="cane.png" class="absolute7">
+
+    </div>
+</body>
+</html>
